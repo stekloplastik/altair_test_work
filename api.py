@@ -63,7 +63,7 @@ def update_feed(source, target):
     print(f'Файл сохранен как: {target}')
 
 
-def get_filename_from_url(url: str) -> str:
+def get_filename_from_url(url):
     """Получаем имя файла из URL"""
 
     if type(url) != str:
